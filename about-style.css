@@ -1,9 +1,9 @@
-*{
+header{
     background-color: black;
 }
 
 .container{
-    color: white;
+    color: black;
 }
 
 .footerContainer{
@@ -19,4 +19,8 @@
     margin-bottom: 100px;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.justify-content-center{
+    text-align: center;
 }
