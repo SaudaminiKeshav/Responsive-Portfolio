@@ -5,6 +5,10 @@ header{
     margin:10px
 }
 
+footer{
+    margin-top: 150px;
+}
+
 .footerContainer{
     min-height: 50px;
     background-color: black;

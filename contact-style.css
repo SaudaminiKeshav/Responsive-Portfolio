@@ -3,6 +3,9 @@ header{
     background-color: black;
 }
 
+footer{
+    margin-top: 150px;
+}
 
 .footerContainer{
     min-height: 50px;
@@ -16,6 +19,7 @@ header{
     left: 0;
     bottom: -5px;
     width: 100%;
+    margin-top: 100px;
 }
 
 .footer-body{
