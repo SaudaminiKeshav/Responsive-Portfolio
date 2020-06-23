@@ -11,16 +11,20 @@ header{
 .card{
     margin:10px
 }
-
 .footerContainer{
-    min-height: 120px;
-    margin-top: 100px;
+    min-height: 50px;
     background-color: black;
-    padding: 50px;
-    padding-left: 50px;
+    padding: 15px;
+    padding-left: 200px;
     text-align: center;
     color: white;
+    margin-top: -50px;
+    position: fixed;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
 }
+
 .footer-body{
     margin-bottom: 10px;
     margin-left: 100px;
