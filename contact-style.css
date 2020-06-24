@@ -6,6 +6,13 @@ header{
 /* Margin spacing below contact container  */
 .contactFormContainer{
     margin-bottom: 300px;
+    margin-left: 20px;
+}
+
+/* ContactContainerStyling  */
+.contactContainer{
+    background-color: black;
+    color: white;
 }
 
 /* Spacing between footer and page content  */

@@ -23,12 +23,14 @@ header{
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #212121;
-    margin-bottom: 200px;
 }
 
+body{
+    margin-bottom: 200px;
+}
 /* addition spacing between footer and page  */
 footer{
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 /* Footer container style  */
@@ -39,7 +41,7 @@ footer{
     padding-left: 50px;
     text-align: center;
     color: white;
-    margin-top: -100px;
+    margin-top: -500px;
     position: fixed;
     left: 0;
     bottom: -5px;
@@ -49,6 +51,8 @@ footer{
 /* Footer content style  */
 .footer-body{
     padding: 1px;
+    padding-left: 10px;
+    padding-left: 10px;
     margin-bottom: 5px;
     margin-top: 5px;
 }
