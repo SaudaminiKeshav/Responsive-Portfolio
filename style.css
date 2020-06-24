@@ -1,12 +1,16 @@
+/* Header bg color  */
 header{
     background-color: black;
 }
+
+/* Skills text content style  */
 .intro-b  {
     font-size: 16px;
     border: 1px solid rgba(49,49,49,0.1);
     text-align: center;
     }
 
+/* Skills card content style  */
 .skillsSection{
        border-radius: 2px;
        border-width: 5px;
@@ -14,6 +18,7 @@ header{
         margin-bottom: 50px;
 }
 
+/* Skills list content style  */
 .skillSetSection{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -21,10 +26,12 @@ header{
     margin-bottom: 200px;
 }
 
+/* addition spacing between footer and page  */
 footer{
     margin-top: 250px;
 }
 
+/* Footer container style  */
 .footerContainer{
     min-height: 50px;
     background-color: black;
@@ -39,6 +46,7 @@ footer{
     width: 100%;
 }
 
+/* Footer content style  */
 .footer-body{
     padding: 10px;
     margin-bottom: 10px;

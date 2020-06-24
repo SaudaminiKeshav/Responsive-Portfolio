@@ -1,16 +1,19 @@
-
+/* Header bg color  */
 header{
     background-color: black;
 }
 
+/* Margin spacing below contact container  */
 .contactFormContainer{
     margin-bottom: 300px;
 }
 
+/* Spacing between footer and page content  */
 footer{
     margin-top: 150px;
 }
 
+/* Footer container style  */
 .footerContainer{
     min-height: 50px;
     background-color: black;
@@ -25,6 +28,7 @@ footer{
     width: 100%;
 }
 
+/* Footer content style  */
 .footer-body{
     padding: 10px;
     margin-bottom: 10px;

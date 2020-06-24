@@ -1,18 +1,24 @@
+/* Header bg color  */
 header{
     background-color: black;
 }
+
+/* Margin for project cards content  */
 .card{
     margin:10px
 }
 
+/* Addition margin below projects  */
 .portfolioContainer{
     margin-bottom: 300px;
 }
 
+/* Spacing between footer and page contents  */
 footer{
     margin-top: 150px;
 }
 
+/* Footer container style  */
 .footerContainer{
     min-height: 50px;
     background-color: black;
@@ -27,6 +33,7 @@ footer{
     width: 100%;
 }
 
+/* Footer content style  */
 .footer-body{
     padding: 10px;
     margin-bottom: 10px;
