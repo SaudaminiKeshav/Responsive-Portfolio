@@ -22,7 +22,7 @@ footer{
 .footerContainer{
     min-height: 50px;
     background-color: black;
-    padding: 15px;
+    padding-bottom: 15px;
     padding-left: 50px;
     text-align: center;
     color: white;
@@ -35,7 +35,12 @@ footer{
 
 /* Footer content style  */
 .footer-body{
-    padding: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    padding: 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* ContactLink color  */
+.contactLink{
+    color: #F14046;
 }
