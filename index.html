@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<link rel="icon" href="https://sebkay.com/assets/img/favicon-32x32.png"> <title>Saudamini Keshav|Web/Mobile Developer</title>
 
@@ -20,7 +20,7 @@
 <body>
 
 	<header class="site-header fixed-top bg-black border-bottom border-dark">
-		<div class="container">
+		<div class="container navContainer">
 			<!-- Navbar -->
 			<nav class="navbar main-nav  navbar-expand-lg navbar-dark" style="background-color: black;" aria-label="Main navigation">
 				<a href="index.html" class="navbar-brand text-uppercase">Saudamini Keshav </a>
@@ -30,7 +30,7 @@
 				<div class="collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
-							<a href="index.html" class="nav-link">Skills</a>
+							<a href="index.html" class="nav-link">Home</a>
 						</li>
 						<li class="nav-item">
 							<a href="portfolio.html" class="nav-link">Portfolio</a>
@@ -47,26 +47,33 @@
 		</div>
 	</header>
 
+	<!-- //<a href="#search-engine-optimization" title="Search Engine Optimization">Search Engine Optimization</a> -->
+
 	<main id="content">
 
 		<!-- Hero -->
 		<div class="container">
-			<div class="row py-5">
-				<div class="col-lg-15"></div>
+			<div class="row py-2">
+				<div class="col-lg-15 col-md-1 col-xs-12">
+				</div>
 			</div>
 		</div>
-
+		<section class="skillsSection">
 		<div class="container py-6">
-			<div class="row justify-content-center">
-				<div class="col-lg-8">
-					<h1 class="display-4 mb-4">Skills</h1>
+			<div class="row">
+				<div class="col-lg-12 col-md-1 col-xs-12">
+					<h1 class="display-2" style="font-family: 'Arial Narrow', Arial, sans-serif; font-size: x-large;">Skills | <a class="button button--primary welcome__button" href="#skillSetSection" style="color: black;">Explore work</a></h1>
 					<hr>
 				</div>
 			</div>
-			<section>
+			
+
+			
+			
+	
 				<div class="container">
-					<div class="row row-cols-2">
-					  <div class="card col"  style="width: 18rem;">
+					<div class="row responsive">
+					  <div class="card col-lg-6 col-md-6 col-xs-12">
 						<img src="http://www.vitosalvatore.com/aboutme/img/responsive@2x.png" class="card-img-top" alt="responsive Web design">
 						<div class="card-body">
 						  <h5 class="card-title">Responsive Web Design</h5>
@@ -74,7 +81,7 @@
 						 
 						</div>
 					</div>
-					<div class="card col"  style="width: 18rem;">
+					<div class="card col-lg-6 col-md-6 col-xs-12">
 						<img src="Assets\Images\drag-mobile-design-ui-ux-icon-line-gray-symbol-vector-23134735.jpg" style="height: auto;" class="card-img-top" alt="responsive Mobile design">
 						<div class="card-body">
 						  <h5 class="card-title">Responsive Mobile Design</h5>
@@ -85,8 +92,8 @@
 					</div>
 				  </div>
 				  <div class="container">
-					<div class="row row-cols-2">
-					  <div class="card col"  style="width: 18rem;">
+					<div class="row responsive">
+					  <div class="card col-lg-6 col-md-6 col-xs-12">
 						<img src="http://www.vitosalvatore.com/aboutme/img/concepting@2x.png" class="card-img-top" alt="Concepting">
 						<div class="card-body">
 						  <h5 class="card-title">Concepting</h5>
@@ -94,7 +101,7 @@
 						 
 						</div>
 					</div>
-					<div class="card col"  style="width: 18rem;">
+					<div class="card col-lg-6 col-md-6 col-xs-12">
 						<img src="http://www.vitosalvatore.com/aboutme/img/interactive@2x.png" class="card-img-top" alt="Interactive Design">
 						<div class="card-body">
 						  <h5 class="card-title">Interactive Design</h5>
@@ -108,13 +115,23 @@
 					<br>                      
 				</div>
 			</section>
-			<section>
 
+			<section id="skillSetSection">
+
+				<div class="container py-8">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-xs-12">
+							<h3 class="display-6"  style="color: white;">List of Tools and Libraries</h3>
+							<hr>
+						</div>
+					</div>
+					
 				<div class="container">
-					<div class="row row-cols-6">
-					  <div class="card border-dark col" style="width: 18rem;">
+				
+					<div class="row responsive">
+					  <div class="card border-dark col-lg-4 col-md-6 col-xs-12">
 						
-						<div class="card-body skillSet">
+						<div class="card-body">
 						  <h5 class="card-title">Languages</h5>
 						   <ul> 
 							        <li>CSS3 (SCSS)</li>
@@ -124,9 +141,9 @@
 							        </ul> 
 						</div>
 					</div>
-					<div class="card border-dark col"  style="width: 18rem;">
+					<div class="card border-dark col-lg-4 col-md-6 col-xs-12">
 						
-						<div class="card-body skillSet">
+						<div class="card-body">
 						  <h5 class="card-title">Methods &amp; tools</h5>
 						   <ul> 
 							     <li>BEM, ITCSS, OOCSS</li> 
@@ -137,9 +154,9 @@
 							   </ul> 
 						</div>
 					</div>
-					<div class="card border-dark col"  style="width: 18rem;">
+					<div class="card border-dark col-lg-4 col-md-6 col-xs-12">
 						
-						<div class="card-body skillSet">
+						<div class="card-body">
 						  <h5 class="card-title">Frameworks &amp; Libs</h5>
 						  <ul>
 							     <li>React, Vue, jQuery</li> 
@@ -150,9 +167,9 @@
 							  </ul>
 						</div>
 					</div>
-					<div class="card border-dark col"  style="width: 18rem;">
+					<div class="card border-dark col-lg-4 col-md-6 col-xs-12">
 						
-						<div class="card-body skillSet">
+						<div class="card-body">
 						  <h5 class="card-title">Additional</h5>
 						   <ul> 
 							       <li>Performance optimisation</li> 
@@ -173,24 +190,19 @@
 				<!--========== FOOTER ==========-->
 				<footer>
 					<div class="footerContainer">
-						<div class="row row-cols-5">
+						<div class="row row-cols-5 col-xs-12">
 							<div class="footer-body">
-							<h5 class="card-footer-title">GitHub</h5>
-							<a href="https://github.com/SaudaminiKeshav" class="links">Saudamini Keshav</a></h3>
+							<h5 class="card-footer-title">GitHub: <a href="https://github.com/SaudaminiKeshav" class="links">Saudamini Keshav</a></h5>
 						</div>
 							<div class="footer-body">
-							  <h5 class="card-footer-title">Email</h5>
-							  <a href="saudamini.keshav@gmail.com">saudamini.keshav@gmail.com</a>
+							  <h5 class="card-footer-title">Email: <a href="saudamini.keshav@gmail.com">saudamini.keshav@gmail.com</a></h5>
 							</div>
 		
 							<div class="footer-body">
-								<h5 class="card-footer-title">LinkedIn</h5>
-								<a href="https://www.linkedin.com/in/saudamini-keshav-b56a29178/">Saudamini Keshav</a>
+								<h5 class="card-footer-title">LinkedIn: <a href="https://www.linkedin.com/in/saudamini-keshav-b56a29178/"  class="links">Saudamini Keshav</a></h5>
 							  </div>
-					
 						</div>
 					  </div>
-		
 					</footer>
 					<!--========== END FOOTER ==========-->
 </body>
