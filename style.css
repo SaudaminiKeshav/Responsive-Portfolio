@@ -37,8 +37,8 @@ footer{
 .footerContainer{
     min-height: 50px;
     background-color: black;
-    padding-bottom: 15px;
-    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 5px;
     text-align: center;
     color: white;
     margin-top: -500px;
@@ -51,9 +51,6 @@ footer{
 /* Footer content style  */
 .footer-body{
     padding: 1px;
-    padding-left: 10px;
-    padding-left: 10px;
-    margin-bottom: 5px;
     margin-top: 5px;
 }
 
