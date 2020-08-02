@@ -7,6 +7,11 @@ header{
 .card{
     margin:10px;
 }
+.card-body{
+    margin-bottom:50px;
+    font-size:large;
+}
+
 
 /* Addition margin below projects  */
 .portfolioContainer{
@@ -42,4 +47,26 @@ footer{
 /* ContactLink color  */
 .contactLink{
     color: #F14046;
+}
+
+/* Carousel styling start */
+.carousel-inner img {
+   
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+/* Carousel styling end  */
+
+.portfolioContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card{
+    align-content: center;
 }
