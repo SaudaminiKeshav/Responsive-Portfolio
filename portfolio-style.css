@@ -1,26 +1,41 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
 /* Header bg color  */
 header{
     background-color: transparent;
 }
 
 /* Margin for project cards content  */
-.card{
-    margin:10px;
-}
+
 .card-body{
     margin-bottom:50px;
     font-size:large;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
+.row{
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
 /* Addition margin below projects  */
 .portfolioContainer{
     margin-bottom: 300px;
 }
 
-/* Spacing between footer and page contents  */
+body{
+    margin-bottom: 200px;
+    align-content: center;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+/* addition spacing between footer and page  */
 footer{
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 /* Footer container style  */
@@ -30,8 +45,8 @@ footer{
     padding-bottom: 10px;
     padding-top: 5px;
     text-align: center;
-    color: white;
-    margin-top: -100px;
+    color: black;
+    margin-top: -500px;
     position: fixed;
     left: 0;
     bottom: -5px;
@@ -62,11 +77,16 @@ footer{
   }
 /* Carousel styling end  */
 
-.portfolioContainer{
-    margin-left: 10%;
-    margin-right: 10%;
+
+
+
+.projects{
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover;
 }
 
-.card{
-    align-content: center;
-}
+/* background: url('Assets\\clear_sky_gif.gif')no-repeat center center fixed; */
