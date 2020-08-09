@@ -16,7 +16,6 @@ html {
     object-fit: cover;
 }
 
-
 /* Header bg color  */
 header{
     background-color: transparent;
@@ -31,22 +30,19 @@ header{
 
 /* Skills card content style  */
 .skillsSection{
-    background-color: black;
-      
-      
-        padding-top: 50px;
-        margin-bottom: 300px;
+    background-color: #212121;
+    margin-top: 75px;
 }
 
 /* Skills list content style  */
 .skillSetSection{
-    padding-top: 30px;
+    margin-bottom: 150px;
     border-radius: 10px;
+    margin-top: 25px;
+    padding-top: 20px;
     background-color: #212121;
 }
 /* addition spacing between footer and page  */
-
-
 
 /* Footer container style  */
 .footerContainer{
@@ -61,7 +57,6 @@ header{
     bottom: -5px;
     width: 100%;
 }
-
 
 /* ContactLink color  */
 .contactLink{
