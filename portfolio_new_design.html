@@ -12,6 +12,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -32,10 +33,10 @@
     <!-- Region Navbar Header -->
     <header class="site-header bg-black border-bottom border-dark">
         <div class=" navContainer">
-            <nav class="navbar main-nav  navbar-expand-lg navbar-dark" style="background-color: transparent;"
+            <nav class="navbar main-nav  navbar-expand-lg navbar-dark" style="background-color: black;"
                 aria-label="Main navigation">
                 <a href="index.html" class="navbar-brand "
-                    style="color: black;  text-shadow:1px -1px 0 white;
+                    style="color: white;  text-shadow:1px -1px 0 white;
                  font-size:xx-large; outline-color: cc2626;text-shadow: -1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;font: outline;text-decoration-style: solid; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">SK
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -46,19 +47,20 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a href="index.html" class="nav-link"
-                                style="color: #cc2626;font-weight:bolder;font-size:large;">Home</a>
+                                style="color: white;font-weight:bolder;font-size:large;text-decoration-style: solid;">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="portfolio.html" class="nav-link"
-                                style="color: #cc2626;font-weight:bolder;font-size:large;">Portfolio</a>
+                            <a href="portfolio_new_design.html" class="nav-link"
+                                style="color: #cc2626;font-weight:bolder;font-size:large;font: outline;text-decoration-style: solid;">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a href="about-me.html" class="nav-link"
-                                style="color: #cc2626;font-weight:bolder;font-size:large;">About Me</a>
+                                style="color: white;font-weight:bolder;font-size:large;outline-color: cc2626;font: outline;text-decoration-style: solid;">About
+                                Me</a>
                         </li>
                         <li class="nav-item">
                             <a href="contact.html" class="nav-link"
-                                style="color: #cc2626;font-weight:bolder;font-size:large;">Contact</a>
+                                style="color: white;font-weight:bolder;font-size:large;outline-color: cc2626;font: outline;text-decoration-style: solid;">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -67,7 +69,6 @@
     </header>
     <!-- End region  -->
 
-    <!-- Hero -->
     <!-- Region whitespace  -->
     <div class="container">
         <div class="row">
@@ -77,7 +78,7 @@
     <!-- End region  -->
 
     <!-- Region page title  -->
-
+<br>
     <div class="row justify-content-center">
         <div class="col-lg-8">
             <h1 class="display-4 mb-4">Projects</h1>
@@ -87,40 +88,87 @@
 
     <!-- End region  -->
 
-    <div class="portfolioContainer">
+    <div class="portfolioContainer w3-container">
 
         <div class="row" id="virtual-cookbook">
             <div class="card col-lg-5 col-xs-12 column container zoom vc" style="width:90%; height:120%">
-
                 <img src="Assets\Images\Capture.PNG" alt="Virtual Cookbook" style="width:100%; height:120%"
-                    class="shadow-lg rounded scale scale-up-hover-2 page-preview">
-                <div class="overlay">Virtual Cookbook</div>
-
+                    class="shadow-lg rounded scale scale-up-hover-2 page-preview modal-content"
+                    onclick="document.getElementById('modal01').style.display='block'">
+                <div class="overlay">Virtual Cookbook<br> <button class="button">LEARN MORE</button></div>
             </div>
-        
+
             <div class="card col-lg-5 col-xs-12 column container zoom" style=" width:90%; height:120%">
+               
                 <img src="Assets\Images\Quiz_Question_Page.png" alt="Code Quiz" style="width:100%; height:120%"
-                    class="shadow-lg rounded scale scale-up-hover-2 page-preview">
-                <div class="overlay">Code Quiz</div>
-            </div>
-        </div>
-        <br>
-        <div class="row " id="password-generator">
-            <div class="card col-lg-5 col-xs-12 column container zoom" style="margin-bottom: 10px;width:90%;  height:120%">
-                <img src="Assets\Images\WithInput-Web.png" alt="Password Generator" style="width:100%; height:120%"
-                    class="shadow-lg rounded scale scale-up-hover-2 page-preview">
-                <div class="overlay">Password Generator</div>
-            </div>
-            <div class="card col-lg-5 col-xs-12 column container zoom" style=" margin-bottom: 10px; width:90%; height:100%">
-                <img src="Assets\Images\workday-scheduler.PNG" alt="Work Day Scheduler" style="width:100%; height:100%"
-                    class="shadow-lg rounded scale scale-up-hover-2 page-preview">
-                <div class="overlay">Workday Scheduler</div>
+                    class="shadow-lg rounded scale scale-up-hover-2 page-preview modal-content"
+                    onclick="document.getElementById('modal02').style.display='block'">
+                <div class="overlay">Code Quiz<br> <button class="button">LEARN MORE</button></div>
             </div>
         </div>
 
+        <br>
+
+        <div class="row " id="password-generator">
+            <div class="card col-lg-5 col-xs-12 column container zoom"
+                style="margin-bottom: 10px;width:90%;  height:120%">
+               
+                <img src="Assets\Images\WithInput-Web.png" alt="Password Generator" style="width:100%; height:120%"
+                    class="shadow-lg rounded scale scale-up-hover-2 page-preview modal-content"
+                    onclick="document.getElementById('modal03').style.display='block'">
+                <div class="overlay">Password Generator<br> <button class="button">LEARN MORE</button></div>
+            </div>
+            <div class="card col-lg-5 col-xs-12 column container zoom"
+                style=" margin-bottom: 10px; width:90%; height:100%">
+                
+                <img src="Assets\Images\workday-scheduler.PNG" alt="Work Day Scheduler" style="width:100%; height:100%"
+                    class="shadow-lg rounded scale scale-up-hover-2 page-preview modal-content"
+                    onclick="document.getElementById('modal04').style.display='block'">
+                <div class="overlay">Workday Scheduler<br> <button class="button">LEARN MORE</button></div>
+            </div>
+        </div>
 
     </div>
-
+    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+            <video width="100%" height="80%" controls autoplay>
+                <source src="Assets\Images\Virtual Cookbook - Google Chrome 2020-07-29 21-03-48.mp4" type="video/mp4">
+                <source src="Assets\Images\Virtual Cookbook - Google Chrome 2020-07-29 21-03-48.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+            <video width="100%" height="100%" controls autoplay>
+                <source src="Assets\Images\Code Quiz - Video_Trim.mp4" type="video/mp4">
+                <source src="Assets\Images\Code Quiz - Video_Trim.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div id="modal03" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+            <video width="100%" height="100%" controls autoplay>
+                <source src="Assets\Images\Password Generator.mp4" type="video/mp4">
+                <source src="Assets\Images\Password Generator.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div id="modal04" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+            <video width="100%" height="100%" controls autoplay>
+                <source src="Assets\Images\Work Day Scheduler.mp4" type="video/mp4">
+                <source src="Assets\Images\Work Day Scheduler.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
     <!-- End region  -->
 
     <!-- Region Footer  -->
@@ -131,11 +179,11 @@
                     <h5 class="card-footer-title" style="text-align: start; margin-left: 50px;"><a
                             href="https://github.com/SaudaminiKeshav" class="contactLink"
                             style="margin-right: 20px;"><img src="Assets\Images\GitHub Icon.png"
-                                style="width: 3%; height: auto;"></a>
+                                style="width: 5%; height: auto;"></a>
                         <a href="mailto:saudamini.keshav@gmail.com" class="contactLink" style="margin-right: 20px;"><img
-                                src="Assets\Images\GMail Icon.png" style="width: 4%; height: auto;"></a>
+                                src="Assets\Images\GMail Icon.png" style="width: 6%; height: auto;"></a>
                         <a href="https://www.linkedin.com/in/saudamini-keshav-b56a29178/" class="contactLink"><img
-                                src="Assets\Images\LinkedIn.png" style="width: 3%; height: auto;"></a>
+                                src="Assets\Images\LinkedIn.png" style="width: 5%; height: auto;"></a>
                     </h5>
                 </div>
             </div>
